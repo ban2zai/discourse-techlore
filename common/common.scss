@@ -79,10 +79,6 @@ body.crawler {
     background: var(--secondary);
 }
 
-body.crawler div.background-container {
-    display: none;
-}
-
 body.category-techlore-content button.btn.expand-post {
     display: none;
 }
@@ -344,42 +340,6 @@ html {
   body:not(.no-ember) {
     background: var(--tertiary);
   }
-  .background-container {
-    height: 0em;
-    width: 100%;
-    background: black;
-  }
-  body.no-ember .background-container {
-    display: none;
-  }
-  .background-overflow-container {
-    overflow-x: hidden;
-  }
-  svg.background-wavet, svg.background-wavet-2 {
-    margin-top: 50px;
-    height: 100px;
-    min-width: 100vw;
-  }
-  svg.background-wavet-2 {
-    position: relative;
-    top: -140px;
-  }
-}
-
-.background-wave, .background-wave-2 {
-  animation: wave 10s linear;
-  animation-iteration-count: infinite;
-  fill: var(--header_background);
-  
-  @keyframes wave {
-    100% {
-      transform: translateX(-100%);
-    }
-  }
-}
-
-.background-wave-2 {
-  opacity: 50%;
 }
 
 .d-header-wrap {
@@ -665,9 +625,6 @@ html body #main-outlet {
 .published-page {
   .published-page-header .published-page-header-wrapper {
     max-width: 1000px;
-  }
-  .background-container {
-    position: absolute;
   }
 }
 

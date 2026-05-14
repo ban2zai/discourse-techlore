@@ -14,18 +14,6 @@
   color: #ffffff;
 }
 
-.d-header .title::after {
-  padding-left: 20px;
-  font-size: 1.5em;
-  content: "";
-  color: var(--header_primary);
-  font-family: var(--heading-font-family);
-}
-.archetype-regular #main.no-text .d-header .title::after,
-.archetype-private_message #main.no-text .d-header .title::after  {
-  display:none;
-}
-
 html.has-full-page-chat body #main-outlet .full-page-chat {
   height: calc(100vh - (var(--header-offset) + 80px));
   --composer-height: 70px;
